@@ -1,0 +1,545 @@
+.bloglist 
+{
+	margin:0px;
+	padding:0px;
+	background:#f1f1f1;
+	border:1px solid #c7c9c9;
+	padding: 16px ;
+    width: 97%;
+	float:left;
+    margin-bottom:16px;
+}
+.bloglist img {
+    float: left;
+    height: 97px;
+    margin: 0 15px 10px 0;
+    width: 142px;
+}
+.bloglist h1
+{
+	font-size:27px;
+	color:#407394;
+	text-decoration:none;
+        margin:0px;
+}
+
+.bloglist h1 a
+{
+	text-decoration:none;
+        color:#407394;
+}
+.bloglist .post_excerpt {
+    color: #333333;
+    float: left;
+    font-size: 13px;
+    margin: 10px 0 0;
+    width: 76%;
+}
+.bloglist .read-more
+{
+	
+	border:2px solid #828f2f;
+	margin-top:10px;
+	background: rgb(145,160,50); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzkxYTAzMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZGJmM2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(145,160,50,1) 0%, rgba(173,191,58,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(145,160,50,1)), color-stop(100%,rgba(173,191,58,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(145,160,50,1) 0%,rgba(173,191,58,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(145,160,50,1) 0%,rgba(173,191,58,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(145,160,50,1) 0%,rgba(173,191,58,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(145,160,50,1) 0%,rgba(173,191,58,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91a032', endColorstr='#adbf3a',GradientType=0 ); /* IE6-8 */
+-webkit-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+font-size:13px;
+color:#ffffff;
+cursor:pointer;
+font-weight:bold;
+padding:6px 10px;
+float:right;
+text-decoration:none;
+text-shadow:2px 2px #626d21;
+ 
+
+}
+.bloglist .read-more:hover
+{
+
+background: rgb(173,191,58); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FkYmYzYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MWEwMzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(173,191,58,1) 0%, rgba(145,160,50,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(173,191,58,1)), color-stop(100%,rgba(145,160,50,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(173,191,58,1) 0%,rgba(145,160,50,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(173,191,58,1) 0%,rgba(145,160,50,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(173,191,58,1) 0%,rgba(145,160,50,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(173,191,58,1) 0%,rgba(145,160,50,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adbf3a', endColorstr='#91a032',GradientType=0 ); /* IE6-8 */
+-webkit-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+font-weight:bold;
+padding:6px 10px;
+text-shadow:2px 2px #626d21;
+float:right;
+text-decoration:none; 
+
+}
+
+.sidebar .reverse-loan-form #submit-reverse-loan:hover
+{
+	background-position:0;
+	
+}
+.bloglist .byline
+{
+	color:#656464;
+}
+h4.widget_title
+{
+	font-size:20px;
+	color:#8c9622;
+        font-weight:bold;
+	text-transform:uppercase;
+}
+
+.sidebar .about-sidebar-menu
+{
+	margin-left:0px;
+}
+
+ul li a
+{
+	text-decoration:none;
+}
+.page_inner .headline {
+    color: #407394;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+.wp-post-image
+{
+    float: left;
+    margin: 8px 15px 0px 0;
+}
+
+#comments {
+    float: left;
+    margin: 15px 0;
+    padding: 0;
+    width: 100%;
+}
+
+#comments li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#comments .avatar {
+    float: left;
+    height: 70px;
+    margin: 0 15px 0 0;
+    width: 80px;
+}
+.comment_author {
+    color: #2D556F;
+    font-weight: bold;
+}
+.comment_date a {
+    color: #2D556F;
+    font-weight: bold;
+}
+.num_comments_link
+{
+	color:#8c9622;
+	text-decoration:none;
+	font-size:18px;
+}
+.comment-reply-link
+{
+	color:#2d556f;
+	text-decoration:none;
+	font-weight:bold;
+        margin-left: 92px;
+}
+.blogFullContant p
+{
+	color:#636362;
+}
+.bloglist span
+{
+	color:#656464;
+}
+.post_content p
+{
+	color:#636362 !important;
+}
+
+/*--------------thank page start her 27_07_13---------------------*/
+
+#thanks
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    padding: 25px 0;
+    width: 101%;
+}
+#thanks img
+{
+	max-width:100%;
+}
+
+.thank_container
+{
+	width:100%;	
+	height:auto;
+}
+
+.text_thank
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	float:left;
+	text-align:center;
+margin-bottom:18px;
+}
+
+.thank_container  h4
+{
+	font-size:21px;
+	font-weight:bold;
+	color:#333333;
+        font-family: helvetica;
+}
+.thank_container p
+{
+	font-size: 15px !important;
+	color:#333333;
+	font-weight:bold;
+}
+.video_box
+{
+	width:100%;
+	text-align:center;
+}
+
+img {
+    max-width: 100%;
+}
+.slider_img
+{
+	
+	width:100%;
+	text-align:center;
+margin-top:50px;
+}
+.lc-info .lc-see-more:hover {
+    background: url("http://previewyournewwebsite.info/otsl/wp-content/uploads/2013/07/see_more.png") repeat scroll 0 0 transparent;
+}
+
+.free-quote-button:hover {
+    background: url("http://previewyournewwebsite.info/otsl/wp-content/uploads/2013/07/get-started_hover.png") repeat scroll 0 0 transparent;
+}
+
+.post_content h2 {
+    background-image: url("http://previewyournewwebsite.info/otsl/wp-content/thesis/skins/thesis-blank/images/header-underline-long.png");
+    background-position: left 37px;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+.ta_box{
+	background:#ECE9E9;
+	border:none !important;
+	padding:10px !important;
+}
+.ta_box h4{
+	border:none !important;
+	margin:0px !important;
+	padding:0px !important;
+}
+.ta_box a{
+	color:#407394 !important;
+text-shadow: none !important;
+}
+.ta_box ul{
+	border:none !important;
+ padding: 0 !important;
+}
+.ta_author_archive_url {
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+#careersSec{
+	width:101%;
+	float:left;
+	background:#fff;
+}
+
+#careersSec .page_inner {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-bottom: 83px;
+    padding-right: 0px;
+}
+#careersSec .press-column.in-page{
+	width:97%;
+	float:left;
+}
+#careersSec h2{
+background:none;
+font-family: helvetica;
+}
+#careersSec .banner{
+	width:100%;
+	float:left;
+background: none repeat scroll 0 0 #E9E4E7;
+}
+#careersSec .boxes{
+	width:96%;
+	float:left;
+	padding:22px 0 22px 3%
+}
+#careersSec .boxes .box{
+    box-shadow: 0 0 3px #AAAAAA;
+    float: left;
+    width: 342px;
+}
+#careersSec .boxes .box h2{
+    font-size:24px;
+	margin:0px 0 0px 15px;
+	padding:0px;
+	color:#2d556f;
+	font-weight:bold;
+}
+#careersSec .boxes .box p{
+    padding:0 15px;
+}
+#careersSec .boxes .mid{
+	margin:0 30px;
+}
+#careersSec .joinSec{
+	width:100%;
+	float:left;
+	background:#f5f5f5;
+	padding:25px 0;
+	text-align:center;
+	border-bottom:solid 1px #d5d5d5;
+	border-top:solid 1px #d5d5d5;
+}
+#careersSec .message{
+	width:100%;
+	float:left;
+	padding:33px 0;
+}
+#careersSec .message h2{
+    font-size:40px;
+	margin:15px 0px;
+	padding:0px;
+	color:#8c3328;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	line-height:45px;
+}
+#careersSec .message h2 span{
+	font-size:25px;
+	color:#2d556f;
+}
+#careersSec .message .detail{
+	width:100%;
+	float:left;
+}
+#careersSec .message .detail .image{
+	width:420px;
+	float:left;
+}
+#careersSec .message .detail .content{
+	width:650px;
+	float:left;
+}
+#careersSec .message .detail .content ul{
+	margin:0px;
+	padding:0px;
+}
+#careersSec .message .detail .content ul li{
+	list-style:none;
+	background:url(http://previewyournewwebsite.info/otsl/wp-content/thesis/skins/thesis-blank/images/arrow.jpg) 0 10px no-repeat;
+	margin:0px;
+	padding:5px 5px 5px 20px;
+}
+#careersSec .reasons{
+	width:96%;
+	float:left;
+	padding:0 2%;
+}
+#careersSec .reasons h2{
+    font-size:35px;
+	margin:15px 0px;
+	padding:0px 0 25px 0;
+	color:#8c3328;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+#careersSec .reasons .boxes{
+	width:100%;
+	float:left;
+	padding:0px 0;
+}
+#careersSec .reasons .boxes .image{
+	width:513px;
+	float:right;
+}
+#careersSec .reasons .boxes .text{
+	width:520px;
+	float:left;
+	padding:35px 0 0 0;
+}
+#careersSec .reasons .boxes .text h2{
+    font-size:25px;
+	margin:15px 0px;
+	padding:0px;
+	color:#2d556f;
+	font-weight:bold;
+	display:block;
+	text-align:left;
+}
+#careersSec .reasons .boxes2 .image{
+	float:left;
+}
+#careersSec .reasons .boxes2 .text{
+	float:right;
+	padding:35px 0 0 0;
+}
+#careersSec .howApply{
+	width:96%;
+	float:left;
+	padding:3% 2%;
+	background:#f5f5f5;
+	border-bottom:solid 1px #d5d5d5;
+	border-top:solid 1px #d5d5d5;
+}
+#careersSec .howApply h2{
+    font-size:40px;
+	margin:15px 0px;
+	padding:0px;
+	color:#8c3328;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+#careersSec .howApply .text{
+	width:47%;
+	float:left;
+	padding:20px 0;
+}
+#careersSec .howApply ul{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	float:left;
+}
+#careersSec .howApply ul li{
+	float:left;
+	width:25%;
+	margin:0px;
+	list-style:none;
+	text-align:center;
+	padding:0px;
+	background:url(http://previewyournewwebsite.info/otsl/wp-content/thesis/skins/thesis-blank/images/apply_arrow.jpg) right 50% no-repeat;
+}
+#careersSec .howApply ul li.last{
+	background:none;
+}
+#careersSec .howApply ul li h3{
+    font-size:28px;
+	margin:15px 0px;
+	padding:0px;
+	color:#2d556f;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+#careersSec .comments{
+	width:100%;
+	float:left;
+	}
+#careersSec .comments .imgs{
+	width:330px;
+	float:left;
+}
+#careersSec .comments .commentMsg{
+    background: url("http://previewyournewwebsite.info/otsl/wp-content/thesis/skins/thesis-blank/images/comment_bg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 16px;
+    height: 282px;
+    line-height: 28px;
+    margin-top: 111px;
+    padding: 35px 40px 0 90px;
+    width: 540px;
+}
+#careersSec .comments span{
+	font-weight:bold;
+	font-size:20px;
+}
+#careersSec .comments .msgArrow{
+	float:left;
+	margin-left:-35px;
+}
+#careersSec .comments .msgArrowright{
+	float:right;
+	margin-left:-35px;
+	margin-top:15px;
+}
+
+.careeDetialpage {
+    padding: 30px 50px;
+}
+.careeDetialpage h2 {
+    color: #8C3328;
+    font-size: 55px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+.careeDetialpage h3 {
+    font-size: 25px;
+    text-align: center;
+}
+.responsible {
+    width: 45%;
+float: left;
+margin-right: 50px;
+margin-left: 0px !important;
+}
+.responsible h2 {
+    font-size: 22px;
+    text-align: left;
+color:#2d556f;
+}
+.responsible li{
+background-image: url("http://previewyournewwebsite.info/otsl/wp-content/thesis/skins/thesis-blank/images/green_arrow.png") !important;
+}
+
+.jobLink {
+    margin-left: 20% !important;
+    text-align: center;
+}
+.jobLink li {
+    background: none repeat scroll 0 0 transparent !important;
+    float: left;
+    padding: 0 65px !important;
+}
+
+.jobLink li a {
+    color: #2D556F !important;
+    font-weight: bold;
+    text-decoration: none;
+}
