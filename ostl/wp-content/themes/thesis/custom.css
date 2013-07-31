@@ -1,0 +1,234 @@
+.clearfix:after,#featured_block .query_box:after { content: ".";display: block;height: 0;clear: both;visibility: hidden; }
+@font-face {
+				font-family: 'LeagueGothic-Regular';
+				src: url('http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/fonts/league/leaguegothicregular.eot');
+				src: url('http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/fonts/league/leaguegothicregular.eot?#iefix') format('embedded-opentype'),
+						 url('http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/fonts/league/leaguegothicregular.woff') format('woff'),
+						 url('http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/fonts/league/leaguegothicregular.ttf') format('truetype'),
+						 url('http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/fonts/league/leaguegothicregular.svg#leaguegothicregular') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+
+/* ==========================================================================
+   Header Area Definations-START
+   ========================================================================== */
+#header_container { padding: 30px 25px;border-bottom: 4px solid white; }
+.page_content h1.headline{font-family: LeagueGothic-Regular; font-size: 3em; }
+#title{width: 100%; float:right;}
+body{font-family: 'Arvo', serif; }
+.custom .slidedeck-overlays{ behavior: url(http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/PIE.htc); }
+.social_strip li {
+    display: block;
+    float: left;
+    height: 37px;
+    margin-right: 10px;
+    text-indent: -999em;
+    width: 32px;
+}
+#featured_block{padding-bottom: 0;}
+#sidebar > div, #featured_block, .page_content, ul#foot_menu { behavior: url(http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/PIE.htc); position: relative; z-index:1;}
+#featured_block{background: white; }
+
+.social_strip li a{display: block; background-image: url('http://aakashohri.com/ss/wp-content/uploads/2012/11/sprite.png'); background-repeat: no-repeat;height: 37px; }
+
+.social_strip li:nth-child(1) a{ background-position: -12px -89px; }
+.social_strip li:nth-child(1) a:hover{background-position:-12px -2px; }
+
+.social_strip li:nth-child(2) a{background-position:-53px -89px;}
+.social_strip li:nth-child(2) a:hover{background-position:-53px -2px;}
+
+.social_strip li:nth-child(3) a{background-position:-98px -89px;}
+.social_strip li:nth-child(3) a:hover{background-position:-98px -2px;}
+
+.social_strip li:nth-child(4) a{background-position:-141px -87px;}
+.social_strip li:nth-child(4) a:hover{background-position:-141px 0;}
+
+section #lhb {
+    float: left;
+    width: 560px;
+}
+section #rhb {
+    float: right;
+    width: 300px;
+}
+input#s {
+    width: 97%;
+}
+#search form {
+    margin-bottom: 6px;
+}
+.pageContent {
+    background: none repeat scroll 0 0 #E3E3E3;
+    width: 92.3%;
+    position: relative;
+    left: -20px;
+    padding: 2em !important; border-top:none !important; border-radius: 3px; box-shadow: 2px 3px 4px #3e3e3e;
+}
+section#title {
+    float: left;
+    font-size: 26px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-left: 10px;
+    position: relative;
+    text-shadow: 1px 3px 3px white, 1px 1px 0 white;
+    text-transform: capitalize;
+    top: -5px;
+    width: 70%;
+}
+#nav.main_menu{border-radius: 0 0 10px 10px;behavior: url(http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/PIE.htc);}
+section#search {
+    float: right;
+    margin-right: 2px;
+    width: 300px; margin-bottom: 8px;
+}
+ul.social_strip {
+    float: right;
+    clear: both;
+}
+ iframe{border-radius: 10px; behavior: url(http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/PIE.htc); }
+section#search input {
+    background: url("http://aakashohri.com/ss/wp-content/uploads/2012/12/serch-bg.png") no-repeat scroll 4px 3px white;
+     -moz-box-sizing: content-box;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 3px 3px 3px;
+    
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    float: right;
+    padding: 5px;
+    text-align: right; font-size: 0.8em; width: 70%;
+    -moz-transition: all 0.25s linear;-webkit-transition: all 0.25s linear;-ms-transition: all 0.25s linear;transition: all 0.3s linear;
+}
+.slidedeck-frame dl.slidedeck dd.sd2-image-scaling-cover .sd2-slide-background{border-radius: 3px; }
+section#search input:focus{
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.9) inset;width:75%; text-align: left; text-indent: 30px; }
+.social_strip li:nth-last-child(1) { margin-right: 0px; position: relative; top:-1px; }
+
+/* ==========================================================================
+   Header Area Definations-STOP
+   ========================================================================== */
+
+
+/* ==========================================================================
+   TOP Navigation- START
+   ========================================================================== */
+#menu-icon {
+    background: url("http://aakashohri.com/ss/wp-content/uploads/2012/12/menu-icon.png") no-repeat scroll 10px center #ECEBEB !important; }
+    
+    #nav.main_menu a {
+    padding: 20px;
+    color: white; text-decoration: none; font-family: 'Arvo', serif;
+}
+#nav.main_menu ul {
+    background: rgba(0,0,0,0.8);
+    border: 1px solid grey;
+    border-top: none;
+    border-bottom: none;
+}
+#nav.main_menu ul li {
+    border-bottom: 1px solid grey;
+}
+#nav.main_menu ul li:nth-last-child(1) {
+    border-bottom: none;
+}
+
+/* ==========================================================================
+   TOP Navigation- STOP
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Home Page content- START
+   ========================================================================== */
+#featured_block .query_box:nth-child(5), #featured_block .query_box:nth-child(4), #featured_block .query_box:nth-child(3), #featured_block .query_box:nth-child(2) {
+    border-radius: 0px;
+    left: -20px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 100%;
+    box-shadow: 1px 2px 3px #3e3e3e;
+}
+
+#featured_block .query_box:nth-child(2){border-radius: 3px 3px 0px 0px;}
+#featured_block .query_box:nth-child(5){border-radius: 0px 0px 3px 3px; margin-bottom: 40px;}
+
+#featured_block{border-radius: 0px; box-shadow: none; }
+.sd2-ress-wrapper {
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 2px #3e3e3e;behavior: url(http://aakashohri.com/ss/wp-content/thesis/skins/schoolsites/scripts/PIE.htc);
+}
+#featured_block .query_box:nth-of-type(2) {
+    border-top: none;
+}
+
+.read_more {
+    
+    float: right;
+    font-size: 14px;
+    position: relative; text-decoration: none;
+    
+}
+#featured_block .query_box {
+    border-top: 8px solid #DDDDDB;
+    clear: both;
+    padding: 10px 0;
+}
+.thumb{margin-bottom: 10px; border: 1px solid #e3e3e3; padding: 5px; background: white; }
+.thumb:hover{background: #594A48; }
+
+#featured_head {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Arvo', serif;
+}
+.pageContent h1.headline,#content .top h1.headline{font-family:'Arvo', serif; font-size: 1.5em; font-weight: normal; float: none;}
+.post_excerpt{width: 505px; }
+/* ==========================================================================
+   Home Page content- STOP
+   ========================================================================== */
+
+
+
+
+
+
+
+/* ==========================================================================
+   FOOTER Navigation- START
+   ========================================================================== */
+ul#foot_menu li {
+    float: left;
+    margin-right: 10px;
+}
+ul#foot_menu {
+    background: #594a48; padding: 23px; border-radius: 10px;
+}
+ul#foot_menu li a{color:white; text-decoration: none; }
+
+#sidebar > div:nth-child(2){min-width: 262px; }
+#sidebar > div, #featured_block , .page_content , #sidebar > div, ul#foot_menu { border-radius:3px; }
+/* ==========================================================================
+   FOOTER Navigation- STOP
+   ========================================================================== */
+   
+   
+   
+ul.social-tabs li a{color:#594a48; font-size: 1.2em; }
+.dc-social.static ul.social-tabs li{text-align: center; width: 120px;background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYWVhZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 1%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(234,234,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 1%,rgba(234,234,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-8 */
+}
+#content .top {
+    padding: 20px;
+}

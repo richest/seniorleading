@@ -1,0 +1,29 @@
+/*
+Copyright 2013 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas .scheme_colors { margin-bottom: 12px; }
+#t_canvas .scheme_color { position: relative; float: left; width: 80px; margin-right: 12px; }
+#t_canvas .scheme_color label { display: block; text-align: center; font-size: 13px; line-height: 18px; margin-top: 3px; color: #555; }
+#t_canvas .scheme_color .scheme { box-sizing: border-box; width: 80px; height: 80px; border: 0; line-height: 1em; text-align: center; border-radius: 0; }
+#t_canvas .scheme_color .complement { position: absolute; top: 0; right: 0; visibility: hidden; font-size: 13px; line-height: 20px; padding: 0 4px; color: #777; background-color: #fff; cursor: pointer; }
+#t_canvas .scheme_color .complement:hover { color: #111; }
+#t_canvas .scheme_color:hover .complement { visibility: visible; }
+#t_canvas .scheme_color .complements { display: none; position: absolute; top: -65px; left: 13px; width: 55px; height: 55px; line-height: 45px; padding-top: 5px; text-align: center; color: #fff; background: rgba(0,0,0,0.9); box-sizing: border-box; }
+#t_canvas .scheme_color .complements .color_swatch { margin: 0 0 5px 5px; }
+#t_canvas .scheme_color .complements:before { display: block; position: absolute; top: 55px; left: 17px; content: ''; width: 0; height: 0; border-color: rgba(0,0,0,0.9) transparent transparent transparent; border-style: solid; border-width: 10px; }
+#t_canvas .scheme_color_scale { position: relative; }
+#t_canvas .color_scale { margin-bottom: 9px; }
+#t_canvas .color_picker { position: absolute; display: none; top: 0; z-index: 10; padding: 10px 5px 5px 10px; background: #000; }
+#t_canvas .color_picker:before { display: block; position: absolute; top: -20px; left: 20px; content: ''; width: 0; height: 0; border-color: transparent transparent rgba(0,0,0,0.9) transparent; border-style: solid; border-width: 10px; }
+#t_canvas .color_row { height: 20px; margin-bottom: 5px; }
+#t_canvas .default_row { margin-bottom: 5px; }
+#t_canvas .color_swatch { display: block; float: left; width: 20px; height: 20px; border: 0; margin-right: 5px; cursor: pointer; }
+#t_canvas .default_swatch { display: inline-block; width: 195px; text-align: center; color: rgba(255,255,255,0.55); background: rgba(255,255,255,0.3); cursor: pointer; }
+#t_canvas .default_swatch:hover { color: #fff; background: rgba(255,255,255,0.45); }
+#t_canvas .home_swatch { color: #fff; background: none; cursor: text; }
+#t_canvas .home_swatch:hover { color: #fff; background: none; }
+#t_canvas .t_color_scheme { display: inline-block; width: 20px; height: 20px; vertical-align: -22%; }
+#t_canvas .scheme_colors:after, #t_canvas .default_row:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

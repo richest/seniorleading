@@ -1,0 +1,24 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas .t_text h4 { font: bold 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top: 38px; margin-bottom: 13px; }
+#t_canvas .t_text h5 { font: bold 16px/25px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#t_canvas .t_text p, #t_canvas .t_text ul, #t_canvas .t_text ol { margin-bottom: 25px; }
+#t_canvas .t_text ul { list-style-type: disc; }
+#t_canvas .t_text ul, #t_canvas .t_text ol { margin-left: 25px; }
+#t_canvas .t_text li { margin-bottom: 12px; }
+#t_canvas .t_text .left { margin-bottom: 25px; margin-right: 25px; }
+#t_canvas .t_text .right { margin-bottom: 25px; margin-left: 25px; }
+#t_canvas .t_text .center { margin: 0 auto 25px auto; }
+#t_canvas .t_text .block { margin: 0 auto 25px 0; }
+#t_canvas #current_skin { font-size: 14px; line-height: 21px; margin-bottom: 21px; padding: 12px; background: #ffe991; border: 1px solid #e9cd60; }
+#t_canvas #current_skin h4 { font: bold 20px/28px "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 4px; }
+#t_canvas #current_skin p { margin-bottom: 8px; }
+#t_canvas #current_skin ul { list-style-type: disc; margin-left: 21px; }
+#t_canvas .t_bubble { padding: 12px; color: #1d4a58; background-color: #e7f8fb; border-radius: 12px; }
+#t_canvas .t_bubble p { font-size: 14px; line-height: 21px; margin: 0; }
+#t_canvas .t_bubble_cite { padding-top: 12px; text-align: center; background: url('../images/bubble.png') 75% 0 no-repeat; }
+#t_canvas .t_bubble_cite p { color: #ca751a; font: italic 16px/1em Georgia, "Times New Roman", Times, serif; }

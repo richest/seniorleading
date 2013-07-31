@@ -1,0 +1,35 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_html { position: relative; color: #111; }
+#t_html h3 { /*font: bold 24px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;*/ margin-bottom: 18px; }
+#t_html .edit_templates { position: relative; font-weight: bold; color: #111; cursor: pointer; padding: 8px 12px; background: #ddd; border: 1px solid rgba(0,0,0,0.1); border-radius: 10px; box-shadow: 3px 3px 0 rgba(0,0,0,0.2); -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+#t_html .edit_templates:hover, #t_html .edit_templates:active, #t_html .edit_templates.active_manager { background: #fbc757; border-color: rgba(0,0,0,0.15); box-shadow: 3px 3px 0 rgba(144,118,62,0.4); }
+#t_html .edit_templates:active, #t_html .edit_templates.active_manager { top: 2px; left: 2px; box-shadow: 1px 1px 0 rgba(144,118,62,0.4) !important; }
+#t_html h3 #switch_template_options { visibility: hidden; font-family: tf, sans-serif; font-size: 24px; margin-left: 10px; }
+#t_html h3:hover #switch_template_options { visibility: visible; }
+#t_html #save_template { position: absolute; top: 0; right: 0; z-index: 125; }
+/*---:[ template manager ]:---*/
+#t_template_manager { display: none; position: absolute; padding: 24px; background-color: rgba(0,0,0,0.9); box-shadow: 0 0 12px rgba(0,0,0,0.5); z-index: 51; }
+#t_template_manager:before { position: absolute; top: -20px; left: 24px; display: block; content: ''; width: 0; height: 0; border-color: transparent transparent rgba(0,0,0,0.9) transparent; border-style: solid; border-width: 10px; }
+#t_template_manager .template_module { float: left; font-size: 15px; line-height: 24px; padding: 0 24px; border: 0 solid rgba(255,255,255,0.2); }
+#t_template_manager #core_templates { padding-left: 0; border-width: 0 1px 0 0; }
+#t_template_manager #copy_from_template { padding-right: 0; border-width: 0 0 0 1px; }
+#t_template_manager .manager_heading { font: bold 18px/1.333em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 12px; color: #fff; }
+#t_template_manager #core_templates .manager_heading { padding-right: 36px; }
+#t_template_manager .edit_template { color: #fff; text-decoration: none; }
+#t_template_manager .edit_template:hover { text-decoration: underline; }
+#t_template_manager .current_template { color: #f2d407; }
+#t_template_manager #core_templates .child_templates { display: none; margin-left: 24px; }
+#t_template_manager .toggle_child_templates { font-family: tf, sans-serif; line-height: 1em; padding: 4px; color: rgba(255,255,255,0.6); cursor: pointer; }
+#t_template_manager .toggle_child_templates:hover { color: rgba(255,255,255,0.9); }
+#t_template_manager #add_template { font-size: 10px; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; margin-left: 4px; padding: 6px 8px; vertical-align: 15%; }
+#t_template_manager .delete_template { visibility: hidden; float: right; font-family: tf, sans-serif; line-height: 1em; margin-left: 4px; padding: 4px; color: #bb0303; text-decoration: none; }
+#t_template_manager .delete_template:hover { color: #f00; }
+#t_template_manager li:hover > .delete_template { visibility: visible; }
+#t_template_manager #copy_from_template .option_item { margin-bottom: 12px; }
+#t_template_manager #copy_template { display: none; }
+#t_template_manager:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

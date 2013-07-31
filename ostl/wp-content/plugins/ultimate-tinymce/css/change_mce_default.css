@@ -1,0 +1,23 @@
+/* Default CSS for Ultimate TinyMCE */
+/* Created by Josh Lobe */
+/* Do not add anything to this file */
+
+/* Separator */
+.wp_themeSkin .mceSeparator {
+	display: block !important;
+	width: 10px !important;
+}
+
+/* Opacity for inactive icons */
+.wp_themeSkin .mceButtonDisabled .mceIcon { 
+    opacity: 0.4 !important;
+}
+
+/* Adding button images for context menu */
+#menu_content_contextmenu_co span.mce_clker {
+	/*display: none !important;*/
+	background: url('img/clker.gif') no-repeat !important;
+	background-clip: content-box !important;
+	width: 22px;
+	margin: 5px 0 0 5px;
+}

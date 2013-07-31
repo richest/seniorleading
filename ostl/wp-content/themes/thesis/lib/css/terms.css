@@ -1,0 +1,11 @@
+/*---:[ Copyright DIYthemes, LLC. Patent pending. All rights reserved. DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC. ]:---*/
+.form-field .tiny { width: 50px; }
+.form-field .short { width: 120px; }
+.form-field .medium { width: 200px; }
+.form-field .long { width: 400px; }
+.form-field textarea { display: block; }
+.form-field .form-list { margin: 0; }
+.form-field .form-list input { width: auto; }
+.form-field .form-list label { display: inline; color: #666; }
+.form-field .counter { width: auto; margin: 3px 6px 0 1px; text-align: center; float: left; }
+.form-field .counter_label { font-size: 12px; line-height: 20px; padding-top: 4px; display: block; color: #666; }

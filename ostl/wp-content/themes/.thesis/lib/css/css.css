@@ -1,0 +1,29 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_css { position: relative; width: 100%; height: 100%; }
+#t_css #t_save_css { position: absolute; top: 0; right: 0; }
+#t_css #t_css_area { float: left; width: 65%; height: 100%; clear: both; }
+#t_css .t_css_input, #t_css .CodeMirror { position: relative; width: 100%; height: 100%; z-index: 1000; box-shadow: 0 0 6px rgba(0,0,0,0.3); }
+#t_css #t_css_items { float: right; width: 35%; padding-left: 24px; }
+#t_css .t_items { position: relative; }
+#t_css #t_vars { margin-bottom: 36px; }
+#t_css #t_create_var { vertical-align: 10% !important; margin-left: 6px; }
+#t_css #t_packages .option_field { margin-bottom: 0; }
+#t_css .t_items h3 { font: bold 24px/1.417em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+#t_css .t_item_list { list-style: none; margin-bottom: 12px; }
+#t_css .t_item_list li { position: relative; display: inline-block; float: left; margin: 0 6px 6px 0; }
+#t_css .t_edit_item { display: block; padding: 9px 8px; font-size: 15px; background: #fff; border: 1px solid #d1cec4; border-bottom-width: 3px; border-radius: 12px; cursor: pointer; z-index: 1000; }
+#t_css .t_edit_item:hover { background-color: #fffdcc; }
+#t_css .t_edit_item:active { background-color: #fffb90; border-bottom-width: 1px; margin-top: 2px; }
+#t_css .t_edit_item[data-type="pkg"], #t_css #t_pkg_ref { color: #0899bd; }
+#t_css .t_edit_item[data-type="var"], #t_css #t_var_ref { color: #e64909; }
+#t_css #t_select_package { margin-bottom: 12px; }
+#t_css #t_add_package { display: none; margin-bottom: 12px; }
+#t_css .t_popup_head h4 { font-weight: bold; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#t_css #t_pkg_selector, #t_css #t_pkg_css, #t_css #t_var_css { color: #111; }
+#t_css .t_items > .t_ajax_alert p { white-space: nowrap; }
+#t_css .t_item_list:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

@@ -1,0 +1,20 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas > .t_alert { margin-bottom: 24px; }
+#t_canvas #skin_upload { float: right; }
+#t_canvas .active_skin { margin-bottom: 36px; }
+#t_canvas .skin_info { font-size: 16px; line-height: 1.5em; padding: 12px 0 0 0; border-top: 1px solid #ddd; }
+#t_canvas .skin_info h4 { font: bold 20px/1.55em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+#t_canvas .skin_info .skin_by { font: normal 13px/2.385em Georgia, "Times New Roman", Times, serif; font-style: italic; color: #888; }
+#t_canvas .skin_info .skin_version, #t_canvas .skin_info .skin_author { font-size: 14px; line-height: 2.214em; font-weight: normal; }
+#t_canvas .skin_info .t_update_available { font-size: 16px; line-height: 1.9375em; }
+#t_canvas .skin_info p { margin-bottom: 0.75em; }
+#t_canvas .skin_info a { text-decoration: none; }
+#t_canvas .skin_info .stop_preview { margin-right: 8px; }
+#t_canvas .skin_info .skin_delete { float: right; margin-left: 12px; }
+#t_canvas .skin_screenshot { float: right; max-width: 300px; margin: 0 0 12px 24px; }
+#t_canvas .skin_info:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

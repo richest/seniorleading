@@ -1,0 +1,28 @@
+/*
+Copyright 2013 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+html { background: #f2eee3 url('../images/dust.png'); }
+#t_canvas #t_canvas_launch { margin-left: 10px; vertical-align: 20%; }
+#t_canvas .CodeMirror { box-shadow: 0 0 6px rgba(0,0,0,0.3); }
+#t_canvas .CodeMirror-lines { padding: 8px 0; }
+#t_canvas .CodeMirror pre { padding: 0 12px; }
+#t_canvas .CodeMirror-linenumber { font-family: Consolas, Monaco, Menlo, Verdana; padding: 0 6px 0 8px; text-align: right; color: #999; }
+#t_canvas .CodeMirror-scroll { margin-bottom: -30px; margin-right: -30px; padding-bottom: 30px; padding-right: 30px; }
+#t_canvas .CodeMirror-gutters { padding-bottom: 30px; }
+#t_canvas .slideout_area { position: relative; }
+#t_canvas .slideout_toggle { display: block; position: absolute; top: 0; right: 0; width: 36px; height: 36px; line-height: 36px; text-align: center; color: #fff; background: rgba(0,0,0,0.8); cursor: pointer; }
+#t_canvas .slideout_toggle:hover { background: #656565; }
+#t_canvas .slideout { position: absolute; top: 0; right: 0; width: 0; background: rgba(0,0,0,0.8); overflow: auto; }
+#t_canvas .slideout h4 { font: normal 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #eee; margin: 6px 18px; }
+#t_canvas .slideout ul { padding: 0 18px 18px; }
+#t_canvas .slideout li { position: relative; margin-bottom: 6px; }
+#t_canvas .slideout .t_edit_item { display: inline-block; font-size: 15px; color: #ddd; cursor: pointer; }
+#t_canvas .slideout .t_edit_item:hover { color: #fe0; }
+#t_canvas .slideout_area .t_ajax_alert { position: fixed; display: none; max-width: 500px; }
+#t_canvas .slideout_area .t_ajax_alert p { background: #999; text-shadow: 1px 1px 0 #777; }
+#t_canvas .slideout_area .t_ajax_alert p:after { border-left-color: #999; }
+#t_canvas #t_open_canvas { position: absolute; top: 24px; right: 200px; }
+.slideout_toggle, .slideout, #t_flyout { z-index: 100; }

@@ -1,0 +1,4 @@
+If you updating from version 1.2.x or older, please 
+note that it is required to open and re-save each map 
+you created before. Just open each map and click 
+"Save" to take new changes.

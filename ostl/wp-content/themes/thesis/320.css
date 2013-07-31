@@ -1,0 +1,111 @@
+#main_container{width: 100%;}
+.page_wrapper { padding-left: 0;padding-right: 0;width: 98%;}	
+#content_box > #content {width:100%; margin-bottom: 30px; }
+aside#sidebar {margin-left:0;}	
+#content_box > #sidebar{width:100%;}	
+
+ section #lhb {width:100%;}
+ section#title { font-size: 1em;font-weight: bold;line-height: 17px;position: relative; text-shadow: none;text-transform: capitalize;top: 0;width: 100%; margin-left: 0px; margin-top: 20px;}
+ 
+ section #rhb{width:100%; margin-top: 15px; }
+ section#search {margin-right: 4%;width: 95%;}
+ ul.social_strip { width: 75%;margin: 0 auto;}
+ 
+ 
+#featured_head p { font-size: 1em; text-align: center; text-decoration: underline; margin-bottom: 20px; }
+.query_box .headline{text-align: center; width:100%; }
+.thumb {background: none repeat scroll 0 0 white;border: 1px solid grey;display: block;float: left;height: 150px;padding: 10px;width: 100%; }
+.post_excerpt {float: none;text-align: justify;width: 100%; clear:both;}
+.post_box:nth-of-type(n+3) {clear: both;margin-top: 15px;}
+iframe#slidedeck_66_50c337c157a7b, .has-image{border-radius: 10px; }
+#content_box > #sidebar{width: 100%; clear: both; float: none; margin: 0 auto; }
+
+section#search input:focus{width: 97%;}
+#nav-wrap { position: absolute;right: 10px;top: 5px; }
+section#search input{width:97%;}
+section#search { width: 98.5%; margin-right: 0px;}
+section#search input{text-align: left; text-indent: 30px;}
+#nav.main_menu {
+    background: none repeat scroll 0 0 #25272A;
+    border: medium none;
+    left: -84px;
+    padding: 0;
+}
+#nav.main_menu li {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+#nav a, #nav ul a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #33383D;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: white;
+    display: block;
+    font-family: helvetica;
+    font-size: 14px;
+    padding: 10px 0 10px 20px;
+    text-align: left;
+}
+#header_container{ border-radius: 0px; box-shadow: 2px 3px 4px #3E3E3E; padding: 5px 10px; }
+#sidebar > div, .page_content, #featured_block{border-radius: 0px;}
+.read_more {
+    bottom: 0;
+    float: none;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+#nav.main_menu ul.sub-menu, #nav.main_menu ul.sub-menu li {
+    margin-left: 0;
+    text-indent: 10px;
+    width: 100%;
+}
+.read_more a {
+    background-color: rgba(89, 74, 72,0.8);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 15px 0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) inset, 0 -1px 0 #594A48 inset, 0 0.1em 3px #594A48, 0 0.3em 1px #594A48, 0 0.5em 5px rgba(0, 0, 0, 0.12);
+    position: relative;
+    transition: top 0.1s ease 0s, background 0.1s ease 0s, box-shadow 0.1s ease 0s;
+    font-family: 'Varela Round', sans-serif; font-size: 0.82em; float: right; width:100%;
+}
+ .read_more a:active {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) inset, 0 -1px 0 #C44100 inset, 0 0.2em 6px rgba(0, 0, 0, 0.12);
+    top: 0;
+    transition: top 0.05s ease 0s, background 0.05s ease 0s, box-shadow 0.05s ease 0s;
+    color:white;
+}
+#featured_block .query_box{padding-top: 30px;}
+#featured_block .query_box:nth-of-type(2) { border-top: none; }
+.dc-social.static .dcsmt { margin: 0 auto !important; }
+ul#foot_menu{border-radius: 0px;}
+ul#foot_menu{padding: 0px;}
+ul#foot_menu li { float: none; margin-right: 0; }
+ul#foot_menu li a {
+    border-bottom: 1px solid grey;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+}
+
+#nav.main_menu a{padding: 1em; text-transform: uppercase;font-weight: bold; font-size: 0.9em; text-align: center;background: black;}
+#nav.main_menu ul a {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);font-size: 0.8em;font-weight: normal;text-align: center;text-indent: 0;text-transform: capitalize;width: auto;}
+#menu-icon.active { background-color: rgba(0, 0, 0, 0.6) !important; border-radius: 3px 3px 0 0;color: white;}

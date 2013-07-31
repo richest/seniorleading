@@ -1,0 +1,19 @@
+<IfModule mod_php5.c>
+    php_value max_input_vars 6000
+    php_value suhosin.post.max_vars 6000
+    php_value suhosin.request.max_vars 6000
+
+    php_admin_flag engine on
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /otsl/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /otsl/index.php [L]
+</IfModule>
+
+# END WordPress

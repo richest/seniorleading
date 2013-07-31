@@ -1,0 +1,109 @@
+
+#main_container{width: 98%;}
+.page_wrapper { padding-left: 0;padding-right: 0;width: 98%;}	
+#content_box > #content {width:100%; margin-bottom: 20px; }
+aside#sidebar {margin-left:0;}	
+#content_box > #sidebar{width:100%;}	
+ #featured_block , .page_content , #sidebar > div, ul#foot_menu  { border-radius: 0px; }
+ #header_container{ padding: 20px 1.5%; border-radius: 0px;  }
+ section #lhb {width:35%;}
+section#title {float: left;margin-left: 0;text-align: left;top: 10px;width: 170%;}
+ 
+ section #rhb{width:60%; margin-top: 0px; }
+ section#search {margin-right: 4%;width: 95%;}
+ ul.social_strip { width: 40%;margin: 0 auto;}
+ 
+#featured_head p { font-size: 2em; text-align: center; text-decoration: underline; margin-bottom: 20px; }
+.query_box .headline{text-align: center; width:100%; }
+.thumb {background: none repeat scroll 0 0 white;border: 1px solid grey;display: block;float: left;height: 150px;padding: 10px;width: 100%; }
+.post_excerpt {float: none;text-align: justify;width: 100%; clear:both; font-size: 100%:}
+.read_more {
+    bottom: 0;
+    float: none;
+    font-size: 14px;
+    position: relative;
+    right: 0;
+}
+.read_more a {
+    background-color: rgba(89, 74, 72,0.8);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 15px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) inset, 0 -1px 0 #594A48 inset, 0 0.1em 3px #594A48, 0 0.3em 1px #594A48, 0 0.5em 5px rgba(0, 0, 0, 0.12);
+    position: relative;
+    transition: top 0.1s ease 0s, background 0.1s ease 0s, box-shadow 0.1s ease 0s;
+    font-family: 'Varela Round', sans-serif; font-size: 0.82em; float: right;
+}
+ .read_more a:active {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) inset, 0 -1px 0 #C44100 inset, 0 0.2em 6px rgba(0, 0, 0, 0.12);
+    top: 0;
+    transition: top 0.05s ease 0s, background 0.05s ease 0s, box-shadow 0.05s ease 0s;
+    color:white;
+}
+
+
+.post_box:nth-of-type(n+3) {clear: both;margin-top: 30px;}
+iframe#slidedeck_66_50c337c157a7b, .has-image{border-radius: 10px; }
+ 
+#sidebar > div{float: left; width: 33%;}
+#sidebar > div:nth-child(1), #sidebar > div:nth-child(3) { margin-right: 0.5%; }
+#sidebar > div:nth-child(2) { float: right; width:34.5%; }
+section#search input {
+    -moz-box-sizing: content-box;
+    background: url("http://aakashohri.com/ss/wp-content/uploads/2012/12/serch-bg.png") no-repeat scroll 4px 3px white;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    float: right;
+    font-size: 0.8em;
+    padding: 5px;
+    text-align: left;
+    text-indent: 25px;
+    transition: all 0.3s linear 0s;
+    width: 63%;
+}
+ul.social_strip {float: right;margin: 0 2% 0 auto;width: 59.9%;}
+
+#nav.main_menu a{padding: 1em; text-transform: uppercase;font-weight: bold; font-size: 0.9em; text-align: center;background: black;}
+#nav.main_menu ul a {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);font-size: 0.8em;font-weight: normal;text-align: center;text-indent: 0;text-transform: capitalize;width: auto;}
+#menu-icon.active { background-color: rgba(0, 0, 0, 0.6) !important; border-radius: 3px 3px 0 0;color: white;}
+
+#nav{background: rgba(0,0,0,0.8);}
+#nav.main_menu ul.sub-menu, #nav.main_menu ul.sub-menu li {margin-left: 0;padding: 0;text-indent: 0;width: 10.5em;}
+#nav-wrap {position: absolute;right: 38px;top: 117px;width: 96px;}
+#nav.main_menu { position: absolute;right: 0;top: 39px;z-index: 1000;}
+
+
+
+
+
+
+.post_box {width: 92.5%;float: left;clear: none !important;margin-top: 0px !important;margin-right: 5%;}
+.post_box:nth-of-type(3), .post_box:nth-of-type(5){margin-right: 0px;}
+#nav-wrap {
+    position: relative;
+    width: 100%; right:0; top:0;
+}
+#nav.main_menu {
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+#nav.main_menu a {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding:1em 0.7em;
+    text-align: left;
+    text-transform: capitalize;
+}

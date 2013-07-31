@@ -1,0 +1,38 @@
+/*---:[ Copyright DIYthemes, LLC. Patent pending. All rights reserved. DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC. ]:---*/
+#t_html { position: relative; color: #111; }
+#t_html h3 { font: bold 24px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 12px; }
+#t_html .edit_templates { font-weight: bold; color: #111; cursor: pointer; padding: 8px 12px; border: 1px solid rgba(0,0,0,0); -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+#t_html .edit_templates:hover { -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.45); -moz-box-shadow: 0 0 6px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.45); box-shadow: 0 0 6px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.45); }
+#t_html .edit_templates:active, #t_html .edit_templates.active_manager { background: rgba(0,0,0,0.2) !important; -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); }
+#t_html h3 #switch_template_options { visibility: hidden; font-family: 'WebSymbolsRegular'; font-size: 24px; margin-left: 10px; }
+#t_html h3:hover .edit_templates { background: #fbc757; border-color: rgba(0,0,0,0.15); }
+#t_html h3:hover #switch_template_options { visibility: visible; }
+#t_html #save_template { position: absolute; top: 0; right: 0; z-index: 125; }
+/*---:[ template manager ]:---*/
+#t_template_manager { display: none; position: absolute; padding: 24px; background-color: rgba(0,0,0,0.85); -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5); box-shadow: 0 0 12px rgba(0,0,0,0.5); }
+#t_template_manager .template_module { float: left; font-size: 15px; line-height: 24px; padding: 0 24px; border: 0 solid rgba(255,255,255,0.15); }
+#t_template_manager #core_templates { padding-left: 0; border-width: 0 1px 0 0; }
+#t_template_manager #copy_from_template { padding-right: 0; border-width: 0 0 0 1px; }
+#t_template_manager .manager_heading { font: bold 18px/1.333em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 12px; color: #fff; }
+#t_template_manager #core_templates .manager_heading { padding-right: 36px; }
+#t_template_manager .edit_template { color: #fff; text-decoration: none; }
+#t_template_manager .edit_template:hover { text-decoration: underline; }
+#t_template_manager .current_template { color: #f2d407; }
+#t_template_manager #core_templates .child_templates { display: none; margin-left: 24px; }
+#t_template_manager .toggle_child_templates { padding: 2px; color: rgba(255,255,255,0.4); cursor: pointer; }
+#t_template_manager .toggle_child_templates:hover { color: rgba(255,255,255,0.6); background-color: rgba(255,255,255,0.15); }
+#t_template_manager #add_template { font-size: 10px; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; margin-left: 4px; padding: 6px 8px; vertical-align: 15%; }
+#t_template_manager .delete_template { visibility: hidden; float: right; margin-left: 4px; padding: 0 4px; font-weight: bold; color: #bb0303; text-decoration: none; }
+#t_template_manager .delete_template:hover { background-color: rgba(255,255,255,0.15); }
+#t_template_manager li:hover > .delete_template { visibility: visible; }
+#t_template_manager #copy_from_template .option_item { margin-bottom: 12px; }
+#t_template_manager #copy_template { display: none; }
+/*---:[ popup mods ]:---*/
+.t_popup .type_template .t_popup_head { background: #444 url('../images/dust.png'); border: none; }
+.t_popup .type_template h4 { color: #fff; }
+.t_popup .type_template .t_popup_close { color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.15); }
+.t_popup .type_template .t_popup_close:hover { color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.3); }
+.t_popup .type_template .t_popup_menu li { color: #d3d3d3; }
+.t_popup .type_template .t_popup_menu li:hover { background: rgba(255,255,255,0.15); }
+.t_popup .type_template .t_popup_menu li.active { color: #fff; background: rgba(255,255,255,0.3); }
+#t_html:after, #t_template_manager:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

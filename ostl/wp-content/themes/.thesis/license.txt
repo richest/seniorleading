@@ -1,0 +1,135 @@
+DIYTHEMES SOFTWARE LICENSE AGREEMENT
+
+---:[ Summary for Normal People ]:----
+
+Pretty much anything is easier to read than a legal document, so we’ve provided an executive summary of the Thesis 2 Software License Agreement that a normal person can actually understand. Once you provide payment, we grant you license to use the Thesis 2 software under the following conditions:
+
+* The license provides you, and only you, with the rights to use the software for its intended purpose.
+* You may allow a third party to work on Thesis for you, but remember—you’re the one with the license, so if they mess with the software and screw it up, you are still responsible.
+* The term of the agreement will vary depending on the option you choose: Thesis Professional, Thesis Basic, Thesis Basic Plus, and licenses that are grandfathered in. See Section 2 below for specifics.
+* You can’t sell, rent, or otherwise transfer the software to anyone else.
+* Other than for educational purposes, any modification of the Thesis “core” is prohibited.
+* You cannot change or add to the program and then sue us because it’s not working correctly.
+* You may create Extensions (Skins, Boxes, or Packages) that are subject to the terms of the DIYthemes Software Extensions License Agreement (http://diythemes.com/thesis/rtfm/software-extensions-license-agreement/).
+* If you need support, please open a thread in our support forums (http://diythemes.com/forums/) so our experts can assist you.
+* If you are not satisfied with Thesis, you will have 30 days from the purchase date to request a refund.
+* If you need to contact us for a non-support inquiry or to request a refund, please email us at diythemes@gmail.com.
+* If you use Thesis with other programs, we can’t be responsible if it doesn’t act properly.
+* We reserve the right to post that you are a client of ours.
+
+If there is any conflict between this summary and the agreement below, the agreement will govern.
+
+This summary should prove helpful for understanding the agreement, but if you still have questions, please contact us at diythemes@gmail.com.
+
+---:[ Long-winded Legalese for Lawyer Types ]:---
+
+THIS DIYTHEMES SOFTWARE LICENSE AGREEMENT (“AGREEMENT”) GOVERNS THE INSTALLATION AND USE OF THE DIYTHEMES SOFTWARE DESCRIBED HEREIN. THE INSTALLATION AND USE OF THE DIYTHEMES SOFTWARE WILL BE SUBJECT TO THE ORDER DOCUMENT(S). YOU WILL BE REQUIRED TO INDICATE YOUR AGREEMENT TO THESE TERMS AND CONDITIONS IN ORDER TO DOWNLOAD THE SOFTWARE, REGISTER THE SOFTWARE WITH DIYTHEMES AND MIGHT OBTAIN LICENSE KEYS (WHEN APPLICABLE) NECESSARY TO COMPLETE THE INSTALLATION PROCESS FOR THE SOFTWARE. BY CLICKING ON THE “I AGREE” BUTTON OR OTHER BUTTON OR MECHANISM DESIGNED TO ACKNOWLEDGE AGREEMENT TO THE TERMS OF AN ELECTRONIC COPY OF THIS AGREEMENT, OR DOWNLOADING OR INSTALLING THE SOFTWARE, OR USING ANY MEDIA THAT CONTAINS THE SOFTWARE, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT, INCLUDING ALL TERMS INCORPORATED BY REFERENCE. THIS AGREEMENT IS ENFORCEABLE AGAINST ANY PERSON OR ENTITY THAT USES THE SOFTWARE AND ANY PERSON OR ENTITY THAT USES THE SOFTWARE ON ANOTHER PERSON’S OR ENTITY’S BEHALF. YOU AGREE THAT THIS AGREEMENT IS EQUIVALENT TO ANY WRITTEN NEGOTIATED AGREEMENT SIGNED BY YOU. IF YOU AGREE TO THESE TERMS ON BEHALF OF A BUSINESS OR A GOVERNMENT AGENCY, DEPARTMENT, OR INSTRUMENTALITY, YOU REPRESENT AND WARRANT THAT YOU HAVE AUTHORITY TO BIND THAT BUSINESS TO THIS AGREEMENT, AND YOUR AGREEMENT TO THESE TERMS WILL BE TREATED AS THE AGREEMENT OF THE BUSINESS. IN THAT EVENT, “YOU” AND “YOUR” REFER HEREIN TO THAT BUSINESS.
+
+THIS SOFTWARE IS BEING LICENSED AND NOT SOLD TO YOU. DIYTHEMES PERMITS YOU TO DOWNLOAD, INSTALL AND USE THE FUNCTIONALITY OR FEATURES OF THE SOFTWARE ONLY IN ACCORDANCE WITH THE TERMS OF THIS AGREEMENT.
+
+1. DEFINITIONS
+
+Capitalized terms not otherwise defined herein can be found in Exhibit A.
+
+2. SOFTWARE PACKAGES
+
+This Agreement will be in effect for the Term (the “Term”) of the Thesis package chosen, unless earlier terminated as provided herein.
+
+The Terms for Thesis package Options (“Options”) are:
+
+2.1 Thesis Professional
+If you purchased the Thesis Professional Option, You have a lifetime Thesis 2 License Term with updates, and You may use the Licensed Software on an unlimited number of User Owned Websites. A “User Owned Website” shall mean any domains for which you (or your company) are the listed registrar. Subdomains count as separate sites, but nested folder structures do not. For example:
+
+* dev.yoursite.com is considered a different website from yoursite.com
+* yoursite.com/user4 is considered the same website as yoursite.com
+
+2.2 Thesis Basic or Thesis Basic Plus
+If you purchased the Thesis Basic or Thesis Basic Plus Option, You have a one (1) year License Term for Thesis 2 with updates, and You may use the Licensed Software on one (1) User Owned Website.
+
+2.3 Grandfathered Options from DIYthemes
+Developer Option: If you purchased the Developer Option or Developer Option Add-on from DIYthemes on or before September 30, 2012, You are eligible for a lifetime Thesis 2 Term with updates on an unlimited number of User Owned Websites.
+
+Personal Option: If you purchased the Personal Option from DIYthemes on or before September 30, 2012, You are eligible for a lifetime Thesis 2 Term with updates on two (2) User Owned Websites.
+
+All Options listed above are allowed the use of Thesis on one localhost development server.
+
+3. LICENSE GRANTS
+
+Subject to your compliance with the terms and conditions of this Agreement, including (as applicable) your timely payment of license fees set forth in the applicable Order Document (the “License Fees”), DIYthemes grants to you the following nonexclusive, worldwide, nontransferable, nonsublicensable, revocable, limited licenses during the Term (or such other period of time provided in your Order Document) to use:
+
+3.1 — the Licensed Software solely for your Internal Business Purpose and in conformance with Your Thesis Option.
+3.2 — the DIYthemes API solely for the purpose of developing Extensions for use with the Licensed Software for your Internal Business Purpose (collectively, “Your Extensions”). Extensions are subject to a separate license agreement, and Your rights to use create, use, own, and exploit such Extensions are governed by such separate license agreement. You may find a copy of the license agreement for the Extensions here: http://diythemes.com/thesis/rtfm/software-extensions-license-agreement/.
+
+You agree to assume full responsibility for the performance of Your Extensions, and shall indemnify, hold harmless, and defend DIYthemes (including all of its officers, employees, directors, subsidiaries, representatives, Affiliates, and agents) and DIYthemes’ licensors and suppliers from and against any claims or lawsuits, including attorney’s fees and expenses that arise or result from the creation, existence, or use of Your Extensions. You retain title to and copyright for Your Extensions, subject to DIYthemes’ title to and copyright for the DIYthemes Materials as specified in the Ownership section below.
+
+4. SOFTWARE RESTRICTIONS
+
+You agree not to (a) use the DIYthemes Materials except as expressly authorized in this Agreement; (b) copy the Licensed Software; (c) modify, adapt, or create derivative works of the Licensed Software or any other Extensions from DIYthemes that are subject to the DIYthemes Software License Agreement or the DIYthemes Software Extensions License Agreement; (d) rent, lease, loan, resell, transfer, sublicense (including but not limited to offering any of the functionality of the DIYthemes Materials on a service provider, hosted or time sharing basis), or distribute the DIYthemes Materials to any third party; (e) repurpose, rename, repackage, or redistribute the Licensed Software; (f) perform or reveal the results of any unreasonable or unsubstantiated (i.e. lacking sufficient evidence to make claims) benchmark tests or other evaluation of the Licensed Software, determined at the sole discretion of DIYthemes, or (g) authorize any third parties to do any of the above. Any consultant, contractor, or agent hired to perform services for you may operate the Licensed Software on your behalf under these terms and conditions, provided that: (v) you are responsible for ensuring that any such third party agrees to abide by and fully comply with the terms of this Agreement on the same basis as applicable to you; (x) such use is only in connection with your Internal Business Purpose; (y) such use does not represent or constitute an increase in the scope of the licenses provided hereunder; and (z) you remain fully liable for any and all acts or omissions by such third parties related to this Agreement. Any violation of this Section shall be a material breach of this Agreement subject to immediate termination of this Agreement for which no notice from DIYthemes shall be required.
+
+5. OWNERSHIP
+
+DIYthemes, its suppliers, and/or its licensors own all worldwide right, title, and interest in and to the DIYthemes Materials, including all worldwide patent rights (including patent applications and disclosures); copyright rights (including copyrights, copyright registration, and copy rights with respect to computer software, software design, software code, software architecture, firmware, programming tools, graphic user interfaces, reports, dashboard, business rules, use cases, screens, alerts, notifications, drawings, specifications, and DIYthemes-created databases); moral rights; trade secrets and other rights with respect to confidential or proprietary information; know-how; other rights with respect to inventions, discoveries, ideas, improvements, techniques, formulae, algorithms, processes, schematics, testing procedures, technical information, and other technology; and any other intellectual and industrial property rights, whether or not subject to registration or protection; and all rights under any license or other arrangement with respect to the foregoing. Except as expressly stated in this Agreement, DIYthemes does not grant you any intellectual property rights in the DIYthemes Materials, and all right, title, and interest in and to all copies of the DIYthemes Materials not expressly granted remain with DIYthemes, its suppliers, and/or its licensors. The DIYthemes Materials are copyrighted and protected by the laws of the United States and other countries, and international treaty provisions. You may not remove or obscure any copyright, trademark, and/or any other intellectual property or proprietary notices from the DIYthemes Materials.
+
+6. LICENSED SOFTWARE LICENSE AND FEES
+
+In order to access and use the Licensed Software, you are required to pay to DIYthemes the license fees set forth in your Order Document (the “License Fees”). Any failure to pay the License Fees may result in automatic revocation and termination of this Agreement and all rights and licenses granted hereunder in DIYthemes’ sole discretion. With the exception of Section 8 (Licensed Software Refund), all License Fees are non-refundable once paid.
+
+7. MAINTENANCE AND SUPPORT
+
+Currently, technical support is only available via the support forums, http://diythemes.com/forums/. If you need to contact us for a non-support inquiry, please email our representatives at diythemes@gmail.com. DIYthemes does not warrant any support or maintenance information found in the support forums, and you use that information at your own risk.
+
+8. LICENSED SOFTWARE REFUND
+
+DIYthemes will, for a period of thirty (30) days after the earlier of delivery or registration of the Licensed Software with DIYthemes, refund the payment for the Licensed Software. You acknowledge that the Licensed Software is provided on an “as is” basis, and DIYthemes disclaims any warranty or liability obligations to you of any kind with respect to the Licensed Software.
+
+If you wish to request a refund within the stated refund period, email us at diythemes@gmail.com.
+
+9. WARRANTY DISCLAIMER
+
+DIYTHEMES, ITS AFFILIATES, LICENSORS, AND SUPPLIERS PROVIDE THE DIYTHEMES MATERIALS AS-IS AND EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, QUIET ENJOYMENT, INTEGRATION, AND WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. YOU AGREE THAT, AS BETWEEN YOU AND DIYTHEMES, YOU ARE RESPONSIBLE FOR THE ACCURACY AND QUALITY OF YOUR DATA INPUT INTO ANY DIYTHEMES MATERIALS. BECAUSE THIS DISCLAIMER OF WARRANTY MAY NOT BE VALID IN SOME STATES OR JURISDICTIONS, THE ABOVE DISCLAIMER MAY NOT APPLY TO YOU.
+
+10. LIMITATION OF LIABILITY
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, DIYTHEMES’ TOTAL CUMULATIVE LIABILITY TO YOU, FROM ALL CAUSES OF ACTION AND ALL THEORIES OF LIABILITY, WILL BE LIMITED TO AND WILL NOT EXCEED THE AMOUNTS PAID BY YOU TO DIYTHEMES UNDER THE APPLICABLE ORDER DOCUMENT GIVING RISE TO SUCH LIABILITY IN THE TWELVE MONTHS PRIOR TO THE EVENT GIVING RISE TO SUCH LIABILITY. IN NO EVENT WILL DIYTHEMES BE LIABLE TO YOU FOR ANY SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES (INCLUDING LOSS OF USE, DATA, OR PROFITS, BUSINESS INTERRUPTION, OR COSTS OF PROCURING SUBSTITUTE DIYTHEMES MATERIALS) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PERFORMANCE OF THE DIYTHEMES MATERIALS, WHETHER SUCH LIABILITY ARISES FROM CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, AND WHETHER OR NOT DIYTHEMES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE. THE PARTIES HAVE AGREED THAT THESE LIMITATIONS WILL SURVIVE AND APPLY EVEN IF ANY REMEDY IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. WITHOUT LIMITING THE FOREGOING, DIYTHEMES WILL HAVE NO LIABILITY OR RESPONSIBILITY FOR ANY BUSINESS INTERRUPTION OR LOSS OF DATA ARISING FROM THE AUTOMATIC TERMINATION OF THE LICENSE RIGHTS GRANTED HEREIN AND ANY ASSOCIATED CESSATION OF THE FUNCTIONS OF THE DIYTHEMES MATERIALS. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. DIYTHEMES IS ACTING ON BEHALF OF ITS AFFILIATES, LICENSORS AND SUPPLIERS FOR THE PURPOSE OF DISCLAIMING, EXCLUDING AND LIMITING OBLIGATIONS, WARRANTIES AND LIABILITY, BUT IN NO OTHER RESPECTS AND FOR NO OTHER PURPOSES.
+
+11. TERMINATION
+
+DIYthemes may terminate this Agreement (and your license rights) upon notice in the event that you breach any provision of this Agreement and have not cured the breach during such notice period. Notwithstanding the foregoing, a material breach of any license granted to you shall be grounds for immediate termination. DIYthemes may also terminate this agreement if you violate the Website Conduct provision (Section 3) of the Terms of Service Agreement, http://diythemes.com/tos/. Upon any expiration or termination of this Agreement, the rights and licenses granted hereunder will automatically terminate, and you agree to immediately cease using the DIYthemes Materials and to destroy all copies of the DIYthemes Materials, including any documentation, and other DIYthemes proprietary or confidential information in your possession or control. If DIYthemes feels necessary, DIYthemes may remotely erase system files, if You do not comply with these terms. As a consequence, please store any files in the provided and designated user folders or risk deletion. DIYthemes provides this warning as a courtesy and does not warrant and will not indemnify the loss of any data.
+
+In the event of termination of this Agreement, DIYthemes will have no obligation to refund any License Fees or other fees received from you during the Term.
+
+Section 1 (Definitions), Section 3 (solely with respect to indemnity), Section 5 (Ownership), Section 9 (Warranty Disclaimer), Section 10 (Limitation of Liability), Section 11 (Termination) and Sections 12 (Severability) through 16 (General) shall survive termination of this Agreement.
+
+12. SEVERABILITY
+
+Unless otherwise provided herein, all rights and remedies, whether conferred hereunder or by any other instrument or law, will be cumulative and may be exercised singularly or concurrently. The failure by either party to enforce any provisions of this Agreement will not constitute a waiver of any other right hereunder or of any subsequent enforcement of that or any other provisions. The terms and conditions stated herein are declared to be severable. If a court of competent jurisdiction holds any provision of this Agreement invalid or unenforceable, the remaining provisions of the Agreement will remain in full force and effect, and the provision affected will be construed so as to be enforceable to the maximum extent permissible by law.
+
+13. PUBLICITY
+
+You agree that DIYthemes may publish a brief description highlighting your deployment of the Licensed Software, identify you as a DIYthemes customer on any of DIYthemes’ websites, client lists, press releases, and/or other marketing materials.
+
+14. THIRD PARTY CONTENT DISCLAIMER
+
+Some of the DIYthemes Extensions and content (“Third-Party Content”) in the DIYthemes Store or in the support forums are submitted by third parties. Such Third-Party Content is the sole responsibility of the originator of that Third-Party Content. DIYthemes is not responsible for any Third-Party Content, whether or not DIYthemes reviewed or moderated such Third Party Content. You agree that you bear all risks associated with using or relying on the Third Party Content. DIYthemes does not in any way warrant the accuracy, reliability, completeness, usefulness, non-infringement, or quality of any Third-Party Content, regardless of who originated that content (including our employees, partners, Affiliates, or moderators), even if an application is designated as “DIYthemes Approved”. DIYthemes hereby disclaim all warranties, including but not limited to any implied warranties of merchantability, quiet enjoyment, integration, or fitness for a particular purpose, relating to Third Party Content. DIYthemes shall not be liable or responsible in any way for any loss or damage of any kind, including direct damages and indirect damages, including but not limited to compensatory damages, lost profits, loss of use, data, business interruption, costs of procuring substitute software, or other indirect or consequential damages, relating to your use of or reliance upon any Third Party Content.
+
+15. CHOICE OF LAW AND DISPUTES
+
+This Agreement will be considered as having been entered into in the State of Texas, and will be interpreted exclusively in accordance with the laws of the State of Texas. The parties to this Agreement irrevocably and unconditionally consent to the exclusive jurisdiction and venue of the state and Federal courts located in Travis County, Texas, in connection with any action related to this Agreement.
+
+16. GENERAL
+
+All notices required or permitted under this Agreement or any Exhibit hereto will be in writing and delivered in person, by confirmed facsimile transmission, by overnight delivery service, or by registered or certified mail, postage prepaid with return receipt requested, and in each instance will be deemed given upon receipt. All communications will be sent to the addresses set forth in the applicable Order Document(s) or to such other address as may be specified by either party to the other party in accordance with this Section. You may not assign, delegate or transfer this Agreement, in whole or in part, by agreement, operation of law, or otherwise. DIYthemes may assign this Agreement in whole or in part to (i) an Affiliate, upon written notice to you (such notice to be delivered electronically or otherwise) or (ii) in connection with an internal reorganization, or in connection with a merger, acquisition, or sale of all or substantially all of DIYthemes’ assets. Any attempt to assign this Agreement other than as permitted herein will be null and void; provided, however, DIYthemes may assign its rights to receive payment due as a result of performance of this Agreement. Subject to the foregoing, this Agreement will bind and inure to the benefit of the parties’ permitted successors and assigns. This Agreement, along with any additional terms incorporated herein by reference, including any Order Documents and any Exhibits hereto, constitute the complete and exclusive understanding and agreement between the parties and supersede any and all prior or contemporaneous agreements, communications, and understandings, written or oral, relating to their subject matter. Any waiver, modification, or amendment of any provision of this Agreement will be effective only if in writing and signed by duly authorized representatives of both parties. Any terms and conditions contained or referenced by either party in a quote, purchase order, acceptance, invoice, or any similar document purporting to modify the terms and conditions contained in this Agreement shall be disregarded and have no effect unless otherwise expressly agreed to by the parties in accordance with the preceding sentence.
+
+EXHIBIT A
+
+DEFINITIONS
+1. “Affiliate” means, with respect to any person or entity, any other person or entity that directly or indirectly Controls or is Controlled by such person or entity, from time to time, but only for so long as such Control exists. “Control” and its grammatical variants means (i) a general partnership interest in a partnership, or (ii) the beneficial ownership of a majority of the outstanding equity entitled to vote for directors.
+2. “Enhancements” means any updates, upgrades, releases, fixes, enhancements, or modifications to the Licensed Software or DIYthemes Developer API.
+3. “Extensions” mean any separate downloadable suite, add-on, command, function, or application, including any example module, which extend the Licensed Software.
+4. “Internal Business Purpose” means the use of any of the DIYthemes Materials, as applicable, only for Your internal business use with Your systems, networks, devices, and data. Such use does not include use of Your systems, networks, or devices as part of services You provide for a third party’s benefit.
+5. “Order Document(s)” mean the purchase order or any equivalent ordering document and the order confirmation that detail the components, solutions, and quantities of your purchase of the Licensed Software.
+6. “Licensed Software” means software licensed through DIYthemes. This includes, but is not limited to, any version of Thesis, Skins, Boxes, or any Enhancements thereof.
+7. “DIYthemes” means DIYthemes, LLC, a Texas Limited Liability Company, located in Austin, Texas, with a PO box of 5429 Austin, Texas, 78763, USA.
+8. “DIYthemes API” means the documentation and functionality included with the Licensed Software which enable the creation of Extensions.
+9. “DIYthemes Extensions” mean any Extensions downloadable through the DIYthemes website.
+10. “DIYthemes Materials” mean the Licensed Software, DIYthemes Developer API, and/or the Enhancements and any derivatives to any of them.

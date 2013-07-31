@@ -1,0 +1,17 @@
+/*---:[ Copyright DIYthemes, LLC. Patent pending. All rights reserved. DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC. ]:---*/
+#t_canvas h3 { margin-bottom: 24px; }
+#t_canvas #package_upload { margin-left: 10px; vertical-align: 10%; }
+#t_canvas .package_primer { margin-bottom: 24px; }
+#t_canvas .package_primer a { text-decoration: underline; }
+#t_canvas .package_primer a:hover { text-decoration: none; }
+#t_canvas .package_list { border-top: 1px solid #ddd; }
+#t_canvas .package { position: relative; padding: 9px 130px 0 40px; background: #eee; border-bottom: 1px solid #ddd; }
+#t_canvas .active_package { background: #fff; }
+#t_canvas .package h4 { font: bold 18px/1.611em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 10px; }
+#t_canvas .package h4 .package_by { font: normal 13px/2.231em Georgia, "Times New Roman", Times, serif; font-style: italic; color: #888; }
+#t_canvas .package h4 .package_version, #t_canvas .package h4 .package_author { font-size: 14px; line-height: 2.071em; font-weight: normal; }
+#t_canvas .package h4 .t_update_available { font-size: 16px; line-height: 1.8125em; }
+#t_canvas .package .package_description { margin-bottom: 12px; }
+#t_canvas .package .package_version { font-size: 14px; line-height: 1.643em; }
+#t_canvas .package .select_package { position: absolute; top: 16px; left: 12px; }
+#t_canvas .package .delete_package { position: absolute; right: 12px; bottom: 12px; }

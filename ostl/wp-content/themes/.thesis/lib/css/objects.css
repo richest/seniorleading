@@ -1,0 +1,21 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas h3 { margin-bottom: 24px; }
+#t_canvas a, #t_canvas a:hover { text-decoration: underline; }
+#t_canvas #object_upload { margin-left: 10px; vertical-align: 10%; }
+#t_canvas .object_primer, #t_canvas .object_alert { margin-bottom: 24px; }
+#t_canvas .object_alert { padding: 12px; background: #ff9; border: 1px solid #e6e68a; }
+#t_canvas .object { position: relative; padding: 9px 130px 0 40px; background: #eee; border-top: 1px solid #ddd; }
+#t_canvas .active_object { background: #fff; }
+#t_canvas .object label { display: block; font: bold 18px/1.611em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+#t_canvas .object label .object_by { font: normal 13px/2.231em Georgia, "Times New Roman", Times, serif; font-style: italic; color: #888; }
+#t_canvas .object label .object_version, #t_canvas .object label .object_author { font-size: 14px; line-height: 2.071em; font-weight: normal; }
+#t_canvas .object label .t_update_available { font-size: 16px; line-height: 1.8125em; }
+#t_canvas .object p { margin-bottom: 12px; }
+#t_canvas .object .select_object { position: absolute; top: 16px; left: 12px; }
+#t_canvas .object .delete_object { position: absolute; right: 12px; bottom: 12px; }
+#t_canvas .object:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

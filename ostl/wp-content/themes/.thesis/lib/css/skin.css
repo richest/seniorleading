@@ -1,0 +1,13 @@
+/*
+Copyright 2013 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas p { margin-bottom: 13px; }
+#t_canvas #skin_content { clear: both; margin-top: 38px; }
+#t_canvas #skin_content:first-child { margin-top: 0; }
+#t_canvas .skin_content ul, #t_canvas .skin_content ol { margin-bottom: 25px; }
+#t_canvas .skin_content ul { list-style-type: disc; }
+#t_canvas .skin_content ul, #t_canvas .skin_content ol { margin-left: 25px; }
+#t_canvas .skin_content li { margin-bottom: 6px; }

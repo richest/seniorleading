@@ -1,0 +1,30 @@
+/*---:[ Copyright DIYthemes, LLC. Patent pending. All rights reserved. DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC. ]:---*/
+#t_css { width: 100%; height: 100%; }
+#t_css #t_css_header { position: relative; }
+#t_css #t_css_header ul { margin-top: 5px; }
+#t_css #t_css_header li { float: left; font: bold 16px/1em "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 12px; color: #666; -webkit-border-radius: 12px 12px 0 0; -moz-border-radius: 12px 12px 0 0; border-radius: 12px 12px 0 0; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+#t_css #t_css_header li:hover { background: rgba(0,0,0,0.1); }
+#t_css #t_css_header li.active { color: #111; background: rgba(0,0,0,0.15); }
+#t_css #t_save_css { float: right; }
+#t_css #t_css_area { float: left; width: 65%; height: 100%; clear: both; }
+#t_css #t_css_area .pane { display: none; width: 100%; height: 100%; }
+#t_css .t_css_input { position: relative; width: 100%; height: 100%; font: normal 16px/1.625em Consolas, Monaco, Menlo, Verdana, sans-serif; color: #111; outline: none; overflow: auto; z-index: 1000; }
+#t_css #t_css_items { float: right; width: 35%; padding-left: 24px; }
+#t_css .t_items { position: relative; }
+#t_css #t_packages { margin-bottom: 36px; }
+#t_css #t_packages .option_field { margin-bottom: 0; }
+#t_css .t_items h3 { font: bold 24px/1.417em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+#t_css #t_create_var { vertical-align: 10% !important; margin-left: 6px; }
+#t_css .t_item_list { list-style: none; margin-bottom: 12px; }
+#t_css .t_item_list li { position: relative; display: inline-block; float: left; margin: 0 6px 6px 0; }
+#t_css .t_item_list a { display: block; padding: 3px 8px; text-decoration: none; color: #111; background: #fff; border: 1px solid rgba(0,0,0,0.2); -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; }
+#t_css .t_item_list a:hover { background-color: #fffdcc; }
+#t_css .t_item_list a:active { background-color: #eceabc; -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 2px rgba(0,0,0,0.6); }
+#t_css .t_item_list code { font-size: 14px; color: #cb4b16; margin-left: 6px; }
+#t_css #t_select_package { margin-bottom: 12px; }
+#t_css #t_add_package { display: none; margin-bottom: 12px; }
+#t_css .t_popup_head h4 { font-weight: bold; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#t_css .option_field .code_input { color: #cb4b16; }
+#t_css #t_pkg_selector, #t_css #t_pkg_css, #t_css #t_var_css { color: #111; }
+#t_css .t_items > .t_ajax_alert p { white-space: nowrap; }
+#t_css .t_item_list:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

@@ -1,0 +1,144 @@
+/* Author Box styles */
+
+.clr {
+	clear:both;
+}
+
+.ta_author_info.ta_box {
+	margin: 0px 10px 20px 10px;
+}
+
+.ta_author_info {
+	float: none;
+	height: auto;
+}
+
+.ta_box {
+	border: 1px solid #f1f1f1;
+	-moz-box-shadow: 1px 1px 1px #e5eaed;
+	-webkit-box-shadow: 1px 1px 1px #E5EAED;
+	box-shadow: 1px 1px 1px #E5EAED;
+	padding: 20px;
+	margin: 10px;
+}
+.ta_author_info .ta_author_desc {
+	margin-left: 105px;
+}
+
+.ta_author_avatar {
+	float: left;
+	width: 113px;
+	height: 113px;
+}
+
+.ta_author_info .ta_author_avatar img,
+.ta_author_info .ta_author_avatar_sb img {
+	width: 80px;
+	height: 80px;
+}
+
+.ta_author_avatar img,
+.ta_author_avatar_sb img {
+	display: block;
+	margin: 0 15px 8px 0;
+	border-radius: 50% 50% 50% 50%;
+}
+
+.ta_box h4 {
+	text-transform: none;
+	border-bottom: 1px dashed #ccc;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 12px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.ta_box .ta_author_desc h4 a {
+	display: inline;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	text-decoration:none;
+}
+
+.ta_box p {
+	margin-bottom:10px;
+	color:#666;
+}
+
+.ta_box ul {
+	border-top: 1px dashed #ccc;
+	padding:20px 0 0 0;
+	width:100%;
+	margin: auto;
+}
+.ta_box ul li {
+	list-style:outside none;
+	list-style-image:none;
+}
+.ta_box .twitter,
+.ta_box .gplus,
+.ta_box .facebook {
+	float:left;
+	line-height: 20px;
+}
+.ta_box .gplus {
+	background: url("../img/gplus-16.png") no-repeat scroll 0.8em center transparent; 
+	padding-left:32px;
+}
+.ta_box .facebook {
+	background: url("../img/facebook-16.png") no-repeat scroll 0.8em center transparent; 
+	padding-left:34px;
+}
+
+/* author archive */
+.ta_author_info.ta_archive {
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom:40px;
+}
+.ta_author_info.ta_archive .ta_author_desc {
+	margin-left:150px;
+}
+.ta_author_info .ta_author_archive_avatar img {
+	width:130px;
+	height:130px;
+	float: left;
+	margin-right:30px;
+}
+.ta_author_info .ta_author_desc h1 {
+	margin-bottom:10px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* sidebar */
+.ta_author_info.ta_sb {
+	margin-bottom:20px;
+}
+.ta_author_avatar_sb {
+	margin:auto;
+	float:none;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+}
+.ta_author_desc_sb h4 {
+	text-align: center;
+}
+.ta_author_desc_sb p {
+	font-size:12px;
+	color: #666;
+}
+.ta_sb .twitter,
+.ta_sb .gplus,
+.ta_sb .facebook {
+	float:none;
+	line-height: 20px;
+}
+.ta_sb .gplus {
+	background: url("../img/gplus-16.png") no-repeat scroll 0 center transparent; 
+	padding-left:22px;
+}
+.ta_sb .facebook {
+	background: url("../img/facebook-16.png") no-repeat scroll -2px center transparent; 
+	padding-left:22px;
+}

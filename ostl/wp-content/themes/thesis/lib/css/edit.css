@@ -1,0 +1,33 @@
+/*---:[ Copyright DIYthemes, LLC. Patent pending. All rights reserved. DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC. ]:---*/
+#poststuff .t_meta { margin-top: 6px; }
+.t_meta .option_item { margin-top: 16px; }
+.t_meta .option_item:first-child { margin-top: 0; }
+.t_meta .option_field { position: relative; }
+.t_meta .option_field p { font-size: 13px; line-height: 21px; font-style: normal; margin: 0; }
+.t_meta .option_field .add_margin { margin-bottom: 18px; }
+.t_meta .option_field .half_margin { margin-bottom: 9px; }
+.t_meta .option_field label { font-size: 13px; font-weight: bold; color: #111; }
+.t_meta .option_field ul { margin: 8px 0 0 0; }
+.t_meta .option_field li label, .t_meta .option_field .counter_label, .t_meta .option_field .input_description { font-size: 12px; font-weight: normal; color: #888; }
+.t_meta .option_field li label { color: #111; }
+.t_meta .option_field .counter { width: 35px; text-align: center; }
+.t_meta .option_field .counter_label { vertical-align: middle; }
+.t_meta .option_field .upload_label { display: block; }
+.t_meta .option_field .toggle_tooltip { font-weight: normal; font-family: Consolas, Monaco, monospace; padding: 2px; color: #aaa; text-decoration: none; }
+.t_meta .option_field .toggle_tooltip:hover { color: #555; background: #dedede; }
+.t_meta .option_field label code { font-weight: normal; color: #666; }
+.t_meta .option_field .tooltip { display: none; position: absolute; top: 0; left: 0; width: 400px; margin-bottom: 0; padding: 12px; color: #fff; background: rgba(0,0,0,0.8); z-index: 100; -webkit-box-shadow: 0 0 9px rgba(0,0,0,0.3); -moz-box-shadow: 0 0 9px rgba(0,0,0,0.3); box-shadow: 0 0 9px rgba(0,0,0,0.3); }
+.t_meta .option_field .tooltip code { background: rgba(0,0,0,0.95); }
+.t_meta .option_field .tooltip a { color: #ffc822; }
+.t_meta .option_field .tooltip a:hover { color: #fff722; }
+.t_meta .option_field input.text_input { display: block; }
+.t_meta .option_field input.full { width: 99%; }
+.t_meta .option_field input.long { width: 400px; }
+.t_meta .option_field input.medium { width: 200px; }
+.t_meta .option_field input.short { width: 120px; }
+.t_meta .option_field input.tiny { width: 50px; }
+.t_meta .option_field textarea { display: block; width: 99%; }
+.t_meta .option_field .upload_field, .t_meta .option_field .current_image { margin-bottom: 16px; }
+.t_meta .option_field .current_image img { display: block; max-width: 460px; margin-bottom: 2px; }
+.t_meta .option_field .current_image span { font-size: 12px; line-height: 20px; color: #888; }
+#poststuff .t_meta:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }

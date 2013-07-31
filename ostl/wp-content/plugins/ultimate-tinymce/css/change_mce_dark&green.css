@@ -1,0 +1,102 @@
+/* Dark with Green CSS for Ultimate TinyMCE */
+/* Created by Josh Lobe */
+
+.wp-editor-wrap .wp_themeSkin tr.mceFirst td.mceToolbar {
+    background-image: none !important;
+    background: #BFBFBF !important;
+	background: -moz-linear-gradient(top,  #BFBFBF 0%, #4C4C4C 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BFBFBF), color-stop(100%,#4C4C4C)) !important;
+	background: -webkit-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: -o-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: -ms-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BFBFBF', endColorstr='#4C4C4C',GradientType=0 ) !important;
+}
+
+.wp-editor-wrap .wp_themeSkin .mceButton {
+    background-color: none !important;
+    background-image: none !important;
+    background: #e6fee2 !important;
+	background: -moz-linear-gradient(top,  #e6fee2 0%, #d9fdd3 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6fee2), color-stop(100%,#d9fdd3)) !important;
+	background: -webkit-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -o-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -ms-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6fee2', endColorstr='#d9fdd3',GradientType=0 ) !important;
+}
+
+.wp-editor-wrap .wp_themeSkin .mceListBox .mceText, .wp-editor-wrap .wp_themeSkin .mceListBox .mceOpen {
+    background-color: none !important;
+    background-image: none !important;
+    background: #e6fee2 !important;
+	background: -moz-linear-gradient(top,  #e6fee2 0%, #d9fdd3 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6fee2), color-stop(100%,#d9fdd3)) !important;
+	background: -webkit-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -o-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -ms-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6fee2', endColorstr='#d9fdd3',GradientType=0 ) !important;
+}
+
+.wp-editor-wrap .wp_themeSkin table.mceSplitButton td {
+    background-color: none !important;
+    background-image: none !important;
+    background: #e6fee2 !important;
+	background: -moz-linear-gradient(top,  #e6fee2 0%, #d9fdd3 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6fee2), color-stop(100%,#d9fdd3)) !important;
+	background: -webkit-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -o-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -ms-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6fee2', endColorstr='#d9fdd3',GradientType=0 ) !important;
+}
+
+.wp-editor-wrap .quicktags-toolbar, .wp-editor-wrap.wp_themeSkin tr.mceFirst td.mceToolbar {
+    background-color: none !important;
+    background-image: none !important;
+    background: #BFBFBF !important;
+	background: -moz-linear-gradient(top,  #BFBFBF 0%, #4C4C4C 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BFBFBF), color-stop(100%,#4C4C4C)) !important;
+	background: -webkit-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: -o-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: -ms-linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	background: linear-gradient(top,  #BFBFBF 0%,#4C4C4C 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BFBFBF', endColorstr='#4C4C4C',GradientType=0 ) !important;
+}
+
+.wp-editor-wrap .wp_themeSkin a.mceButton:active, .wp-editor-wrap .wp_themeSkin a.mceButtonEnabled:active, .wp-editor-wrap .wp_themeSkin a.mceButtonSelected:active, .wp-editor-wrap .wp_themeSkin a.mceButtonActive, .wp-editor-wrap .wp_themeSkin a.mceButtonActive:active, .wp-editor-wrap .wp_themeSkin a.mceButtonActive:hover {
+    background: none repeat scroll 0 0 #34DB42 !important;
+}
+
+.wp-editor-wrap.tmce-active .switch-tmce, .wp-editor-wrap.html-active .switch-html {
+    background-color: #d9fdd3 !important;
+}
+
+.wp-editor-wrap .wp-switch-editor {
+    background-color: #e6fee2 !important;
+}
+
+.quicktags-toolbar input {
+    background-color: none !important;
+    background-image: none !important;
+	background: #e6fee2 !important;
+	background: -moz-linear-gradient(top,  #e6fee2 0%, #d9fdd3 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6fee2), color-stop(100%,#d9fdd3)) !important;
+	background: -webkit-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -o-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: -ms-linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	background: linear-gradient(top,  #e6fee2 0%,#d9fdd3 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6fee2', endColorstr='#d9fdd3',GradientType=0 ) !important;
+}
+
+/* Separator */
+.wp_themeSkin .mceSeparator {
+	display: block !important;
+	width: 10px !important;
+}
+
+/* Opacity for inactive icons */
+.wp_themeSkin .mceButtonDisabled .mceIcon { 
+opacity: 0.4 !important;
+}

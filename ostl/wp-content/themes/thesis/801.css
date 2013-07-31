@@ -1,0 +1,10 @@
+#main_container{width: 96%;}
+.page_wrapper { padding-left: 0;padding-right: 0;width: 98%;}	
+#content_box > #content {width:60%;}
+aside#sidebar {margin-left: 1.4%;}	
+#content_box > #sidebar{width:282px; float: right;}
+.post_excerpt{width:73%;}
+.query_box .headline { clear: both; float: left; margin-bottom: 10px; }
+section #lhb{width:100%:}
+section#title{width:80%;}
+section#search input{width:65%;}

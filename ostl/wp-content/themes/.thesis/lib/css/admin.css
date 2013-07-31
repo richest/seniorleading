@@ -1,0 +1,56 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+@font-face {
+	font-family: 'tf'; font-weight: normal; font-style: normal;
+	src: url('../fonts/t_font.eot');
+	src: url('../fonts/t_font.eot?#iefix') format('embedded-opentype'), url('../fonts/t_font.woff') format('woff'), url('../fonts/t_font.ttf') format('truetype'), url('../fonts/t_font.svg#t_font') format('svg'); }
+#screen-meta { display: none; }
+h3, p, ul, ol, li, dl, dt, dd, blockquote, code, input, textarea, select { font-size: inherit; line-height: inherit; font-weight: normal; }
+code { line-height: 1em; }
+#t_admin code { background: none; }
+abbr, acronym { border: 0; }
+input[type="checkbox"] { vertical-align: middle; }
+input[type="radio"] { vertical-align: baseline; }
+label { cursor: default; }
+code, pre, kbd { font-family: Consolas, Monaco, Menlo, Verdana, sans-serif; }
+body.no-scroll { overflow: hidden; }
+#wphead { display: none; border-bottom: none !important; }
+#t_admin { font: normal 10px/1em "Lucida Grande", "Segoe UI", Segoe, Tahoma, Geneva, sans-serif; }
+#t_admin * { margin: 0; padding: 0; }
+#t_admin a, #t_admin a:hover, #t_admin a:active { color: #bb0303; text-decoration: underline; }
+#t_header { min-width: 777px; margin-left: -19px; padding: 8px 24px 8px 22px; background: #363636 url('../images/knurled.png'); border: 2px solid #222; border-width: 2px 0 1px 0; }
+#t_logo { display: block; width: 167px; height: 35px; background: url('../images/thesis-editor.png') 0 100% no-repeat; text-indent: -9999px; outline: none; float: left; }
+#t_nav { font-size: 15px; line-height: 1em; margin-left: 191px; min-width: 560px; }
+#t_nav li { float: left; margin-right: 9px; }
+#t_nav li a { display: block; padding: 9px 12px; text-decoration: none; outline: none; }
+#t_nav li a:hover { color: #fff; background: #6a6a6a; text-decoration: none; }
+#t_nav li.current a, #t_nav .submenu li.current a, #t_nav .more_menu li #t_version { color: #111; background: rgba(255,255,255,0.3); cursor: text; }
+#t_nav .topmenu { position: relative; }
+#t_nav .more_menu { margin-right: 0; float: right; }
+#t_nav .view_site { float: right; }
+#t_nav .topitem, #t_nav .toplink { color: #ddd; background: #5a5a5a; border: 1px solid rgba(0,0,0,0.5); border-radius: 8px; }
+#t_nav .topmenu .topitem { position: relative; z-index: 140; cursor: default; }
+#t_nav a span { font-family: tf, sans-serif; }
+#t_nav .topmenu .topitem span { margin-left: 6px; }
+#t_nav .topmenu .topitem:hover { border-bottom-width: 0; border-color: rgba(0,0,0,0.6); border-radius: 8px 8px 0 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); z-index: 160; }
+#t_nav .topmenu .active { color: #fff; background: #777; border-bottom-width: 0; border-radius: 8px 8px 0 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); z-index: 160; }
+#t_nav .toplink:hover { border-color: rgba(0,0,0,0.6); border-radius: 8px; }
+#t_nav .toplink:active { background: #7a7a7a; }
+#t_nav .submenu { position: absolute; z-index: 150; left: 0; background: #777; border: 1px solid #333; border-top-width: 0; display: none; box-shadow: 0 0 15px rgba(0,0,0,0.4); }
+#t_nav .more_menu .submenu { right: 0; left: auto; }
+#t_nav .submenu li { margin-right: 0; width: 11em; float: none; }
+#t_nav .submenu a { display: block; line-height: 1.4em; padding: 9px 12px; color: #eee; cursor: pointer; }
+#t_nav .submenu a:hover { color: #ff6; background: rgba(0,0,0,0.2); }
+#t_nav .more_menu li #t_version { display: block; line-height: 1.4em; padding: 9px 12px; }
+#t_canvas { position: relative; font-size: 16px; line-height: 1.625em; min-width: 777px; padding: 24px 24px 0 5px; color: #111; }
+#t_canvas h3 { font: bold 24px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 12px; }
+#t_canvas .t_canvas_left { float: left; width: 64%; min-width: 500px; font-size: 16px; line-height: 25px; }
+#t_canvas .t_canvas_right { float: right; width: 32%; min-width: 225px; }
+#t_canvas .t_update_available { font-weight: bold; padding: 0 5px; background: #ff9; display: inline-block; }
+.thesis_update_message { color: #bb0303; }
+#t_header:after, #t_nav:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#adminmenu #toplevel_page_thesis .wp-submenu { z-index: 100; }
